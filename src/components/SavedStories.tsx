@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Library, Trash2, Eye, Filter, Calendar, BookOpen } from 'lucide-react';
+import { Library, Trash2, Eye, BookOpen } from 'lucide-react';
 import { GeneratedStory } from '../types';
 
 interface SavedStoriesProps {
