@@ -1,6 +1,6 @@
 export interface StoryParams {
   prompt: string;
-  genre: string;
+  genre: 'Fantasy' | 'Science Fiction' | 'Mystery/Thriller' | 'Romance' | 'Horror' | 'Adventure' | 'Comedy' | 'Drama';
   length: 'Short' | 'Medium' | 'Long';
   tone: string;
   pov: 'First Person' | 'Third Person';
