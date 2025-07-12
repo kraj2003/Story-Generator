@@ -59,7 +59,7 @@ const StoryForm: React.FC<StoryFormProps> = ({ onGenerate, isGenerating }) => {
     setParams(prev => ({
       ...prev,
       prompt: examplePrompts[prev.genre as keyof typeof examplePrompts] || ''
-    }));
+    } as StoryParams));
   };
 
   return (

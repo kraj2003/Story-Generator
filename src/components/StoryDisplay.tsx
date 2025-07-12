@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Copy, Download, Heart, BarChart3, FileText } from 'lucide-react';
+import { BookOpen, Copy, Download, Heart, BarChart3 } from 'lucide-react';
 import { GeneratedStory } from '../types';
 
 interface StoryDisplayProps {
